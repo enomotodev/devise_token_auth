@@ -11,7 +11,7 @@ group :development, :test do
   gem "attr_encrypted"
   gem "figaro", git: "https://github.com/laserlemon/figaro"
   gem "omniauth-facebook", git: "https://github.com/mkdynamic/omniauth-facebook"
-  gem "omniauth-github", git: "https://github.com/intridea/omniauth-github"
+  gem "omniauth-github", "< 2.0.0", git: "https://github.com/intridea/omniauth-github"
   gem "omniauth-google-oauth2", git: "https://github.com/zquestz/omniauth-google-oauth2"
   gem 'omniauth-apple'
   gem "rack-cors", require: "rack/cors"
